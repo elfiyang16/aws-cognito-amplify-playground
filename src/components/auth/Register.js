@@ -43,6 +43,7 @@ class Register extends Component {
       const signUpResponse = await Auth.signUp({
         username,
         email,
+        password,
         attributes: {
           //optional
           email: email,
